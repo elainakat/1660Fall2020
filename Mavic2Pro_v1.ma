@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: Mavic2Pro_v1.ma
-//Last modified: Wed, Sep 09, 2020 10:52:20 PM
+//Last modified: Wed, Sep 09, 2020 11:03:03 PM
 //Codeset: 1252
 requires maya "2020";
 requires "mtoa" "4.0.0";
@@ -10,17 +10,17 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 18363)\n";
-fileInfo "UUID" "3A385DAE-425F-F600-4DED-3B9D40C4615B";
+fileInfo "UUID" "4CD1FBFE-4AE7-43A1-CA32-C793B11270F8";
 createNode transform -s -n "persp";
 	rename -uid "86CE88A4-4F4E-3399-E324-1597024CF424";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -60.223848272810038 18.510237416289968 -0.6305891782026265 ;
+	setAttr ".t" -type "double3" -45.663561236451862 15.958876183285771 -0.47810863515377788 ;
 	setAttr ".r" -type "double3" 710.06164719872879 -450.5999999997191 -7.6333312355124402e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "5D1DD4E7-4E59-C08F-93F6-DABAE6C96CBD";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 61.135327038284004;
+	setAttr ".coi" 46.352409429150647;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
